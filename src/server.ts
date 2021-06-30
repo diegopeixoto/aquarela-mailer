@@ -6,9 +6,7 @@ import { routes } from './routes'
 import { ServerParams } from './utils/serverparams'
 dotenv.config()
 
-const isProd = process.env.NODE_ENV === 'production'
-
-const PORT = 4666
+const PORT = 3000
 const HOST = '0.0.0.0'
 const VERSION = process.env.VERSION
 const server = new ServerParams()
